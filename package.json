@@ -1,0 +1,23 @@
+{
+  "name": "mtls",
+  "version": "1.0.0",
+  "description": "- [mTLS Golang Example](#mtls-golang-example)   - [1. What is mutual TLS (mTLS)?](#1-what-is-mutual-tls-mtls)   - [2. How does mTLS work?](#2-how-does-mtls-work)   - [3. Example Walkthrough](#3-example-walkthrough)     - [3.1 Certs and Keys](#31-certs-and-keys)       - [3.1.2 Using Golang generate the Certs and Keys](#312-using-golang-generate-the-certs-and-keys)       - [3.1.2 Using OpenSSL generate the Certs and Keys](#312-using-openssl-generate-the-certs-and-keys)     - [3.2 Server.go](#32-servergo)     - [3.3 Client.go](#33-clientgo)",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haoel/mTLS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haoel/mTLS/issues"
+  },
+  "homepage": "https://github.com/haoel/mTLS#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
